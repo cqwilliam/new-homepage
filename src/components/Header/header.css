@@ -1,0 +1,55 @@
+.div_supp {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.contend-img {
+  width: 100%;
+}
+
+.contend_text {
+  display: flex;
+  gap: 20px;
+}
+
+.contend2 {
+  padding: 30px;
+  background-color: #00001a;
+  color: white;
+  display: grid;
+  gap: 20px;
+}
+
+.button_read {
+  background-color: #f35b54;
+  border: none;
+  padding: 15px 0px;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 50%;
+  cursor: pointer;
+}
+.button_read:hover {
+  background-color: #00001a;
+}
+
+.text_font {
+  display: grid;
+  gap: 40px;
+}
+
+@media (max-width: 660px) {
+  .contend {
+    display: grid;
+  }
+  .contend_text {
+    display: grid;
+  }
+
+  .div_supp {
+    grid-template-columns: 1fr;
+  }
+}

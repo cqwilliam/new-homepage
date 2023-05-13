@@ -1,0 +1,73 @@
+.nav_class {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.unordered_class {
+  display: flex;
+  place-items: center;
+  gap: 40px;
+}
+
+.links_class {
+  list-style: none;
+}
+
+.list_name {
+  text-decoration: none;
+  color: black;
+}
+
+.list_name:hover {
+  color: #f35b54;
+}
+
+.burguer_menu {
+  display: none;
+}
+
+.close_img{
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 250px;
+    height: 100vh;
+    background: white;
+    transition: right 10s;
+    z-index: 1;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .show{
+    right: -250px;
+    display: none;
+  }
+
+  .unordered_class {
+    display: grid;
+  }
+
+  .burguer_menu {
+    display: flex;
+    justify-content: end;
+  }
+
+  .burguer_menu.nav.show{
+    display: none;
+  }
+
+  .close_img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+}
