@@ -4,8 +4,13 @@
   gap: 40px;
 }
 
-.contend-img {
+.content-img {
   width: 100%;
+}
+
+.content-img2{
+  width: 100%;
+  display: none;
 }
 
 .contend_text {
@@ -24,7 +29,7 @@
 .button_read {
   background-color: #f35b54;
   border: none;
-  padding: 15px 0px;
+  padding: 10px 0px;
   color: white;
   letter-spacing: 5px;
   font-size: 15px;
@@ -41,6 +46,11 @@
   gap: 40px;
 }
 
+.title_feature{
+  font-size: 45px;
+  font-weight: 800;
+}
+
 @media (max-width: 660px) {
   .contend {
     display: grid;
@@ -51,5 +61,11 @@
 
   .div_supp {
     grid-template-columns: 1fr;
+  }
+  .content-img{
+    display: none;
+  }
+  .content-img2{
+    display: block;
   }
 }
