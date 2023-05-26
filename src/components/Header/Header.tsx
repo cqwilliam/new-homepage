@@ -6,17 +6,17 @@ const Header = () => {
     <div className="div_supp">
       <div className="contend">
         <img
-          className="contend-img"
-          src="../src/assets/image3-web.jpg"
+          className="content-img"
+          src="/image3-web.jpg"
           alt=""
         />
-        {/* <img
-          className="contend-img"
-          src="../src/assets/image3-mobile.jpg"
+        <img
+          className="content-img2"
+          src="/image3-mobile.jpg"
           alt=""
-        /> */}
+        />
         <div className="contend_text">
-          <h1>The Bring Future of Web 3.0?</h1>
+          <h1 className="title_feature">The Bring Future of Web 3.0?</h1>
           <div className="text_font">
             <p>
               We dive into the next evolution of the web that claims to put the
@@ -33,7 +33,6 @@ const Header = () => {
           <h3>Hydrogen Vs Electric Cars</h3>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
-        <hr />
         <div>
           <h3>The Downsides of Al Artistry</h3>
           <p>
@@ -41,7 +40,6 @@ const Header = () => {
             generation?
           </p>
         </div>
-        <hr />
         <div>
           <h3>Is VC Funding Drying Up?</h3>
           <p>
